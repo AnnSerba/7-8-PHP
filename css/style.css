@@ -1,0 +1,314 @@
+body {
+	background: url(../images/background.jpg) fixed;
+	background-size: cover;
+	font-family: Consolas, Helvetica, sans-serif;
+}
+
+.hint {
+	font-family: Consolas;
+	font-size: 10pt;
+	color: gray;
+
+}
+
+.currentDate {
+	float: left;
+	font-size: 12pt;
+	font-family: Consolas;
+	margin-top: 0%;
+	color: #FFFFFF;
+}
+
+.history {
+	float: right;
+	margin-top: 0%;
+	font-size: 12pt;
+	font-family: Consolas;
+	color: #FFFFFF;
+}
+
+.bodyp {
+	width: 60%;
+	height: 150%;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;	
+	background-color: #E6E6FA;
+	border-radius: 10px;
+	text-align: center;
+}
+
+ fieldset {
+ 	height: 16%;
+ 	width: 27%;
+	margin: 1%;
+	text-align:center;
+	display: inline-block;
+ }
+
+fieldset img {
+	height:90%;
+	width:100%;
+}
+
+.align {
+	text-align: center;
+}
+ 
+ .tp {
+ width: 100%;
+ height: auto;
+ }
+ 
+
+.navigation {
+	width: 95%;
+	height : 3%;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+}
+
+ui {
+	text-align: center;
+}
+
+li {
+	border-radius: 10px;
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+	margin: 1%;
+	
+}
+
+.bodyc {
+	width: 60%;
+	height: auto;
+	text-align: center;
+	padding: 1%;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;	
+	background-color: #E6E6FA;
+	border-radius: 10px;
+}
+
+.bodya {
+	width: 60%;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;	
+	background-color: #E6E8FA;
+	border-radius: 10px;
+	font-size: 14pt;
+	text-align: justify;
+	vertical-align: middle;
+	padding: 1%;
+}
+
+
+.body {
+	width: 60%;
+	height: 70%;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;	
+	background-color: #E6E8FA;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/*.blog {
+    width: 60%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #E6E8FA;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}*/
+
+.bodys {
+	width: 60%;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;	
+	background-color: #E6E8FA;
+	border-radius: 10px;
+}
+
+.bodyi {
+	width: 60%;
+	height: 210%;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;	
+	background-color: #E6E6FA;
+	border-radius: 10px;
+}
+
+
+/*.body img {
+	float: left;
+	margin: 3% 3%;
+	border-radius: 10px;
+}*/
+
+
+#kindaSliderMaybe {
+	width: 90%;
+	height: 80%;
+	margin-left: 5%;
+
+}
+
+.study {
+	font-size: 24pt;
+	text-align: center;
+}
+
+.tabletitle {
+	font-weight: bold; 
+	text-align: center; 
+	empty-cells: show;
+}
+
+.data {
+	font-weight: normal; 
+	font-style: italic; 
+	text-align: left;
+	empty-cells: show;
+}
+
+table {
+	margin: 1% auto;
+	empty-cells: show;
+	border: 1px;
+	border-collapse: collapse;
+
+}
+
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 5px solid gray; /* Параметры рамки */
+   }
+
+
+a {
+	border-radius: 10px;
+	background-color: #E6E6FA;
+
+    text-decoration: none;
+    padding: 1%;
+    color: black;
+   }
+   
+a:hover {
+	background-color: #0ADDFF;
+    text-decoration: none;
+   }
+
+.bodyi a {
+	text-decoration: none;
+	border-radius: 0;
+	background-color: #E6E6FA;
+	padding: 0;
+	
+}
+
+.bodyi {
+	text-align: center;
+	font-size: 26pt;
+}
+
+.bodyi img {
+	max-width: 30%;
+	max-height: 27%;
+	min-width: 30%;
+	min-height: 27%;
+}
+
+.bodyi audio {
+	width: 27%;
+	padding: 1.5%;
+}
+
+#tooltip {
+	z-index: 9999;
+	position: absolute;
+	display: none;
+	top:0px;
+	left:0px;
+	background-color: #000;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	opacity: 0.6;
+	border-radius: 5px;
+}
+
+#login_form {
+	width: 300px;
+	height: 100px; /* Размеры должны быть фиксированы */
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed; /* чтобы окно было в видимой зоне в любом месте */
+	top: 45%; /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+	left: 50%; /* половина экрана слева */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся магия центровки css, отступаем влево и вверх минус половину ширины и высоты соответственно =) */
+	display: none; /* в обычном состоянии окна не должно быть */
+	opacity: 0; /* полностью прозрачно для анимирования */
+	z-index: 5; /* окно должно быть наиболее большем слое */
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#overlay {
+	z-index: 3; /* подложка должна быть выше слоев элементов сайта, но ниже слоя модального окна */
+	position: fixed; /* всегда перекрывает весь сайт */
+	background-color: #000; /* черная */
+	opacity: 0.8; /* но немного прозрачна */
+	width: 100%;
+	height: 100%; /* размером во весь экран */
+	top: 0;
+	left: 0; /* сверху и слева 0, обязательные свойства! */
+	cursor: pointer;
+	display: none; /* в обычном состоянии её нет) */
+}
+
+
+#imLeft {
+	height: 40px;
+	width: 40px;
+	background: url(../images/left.png);
+	background-size:cover;
+	float:left;
+
+}
+
+#imRight {
+	height: 40px;
+	width: 40px;
+	background: url(../images/right.png);
+	background-size:cover;
+	float: right;
+}
+
+#SliderNav {
+	text-align: center;
+	display:inline-block;
+	width: 500px;
+
+}
+
+#history {
+    text-align : right;
+    float : right;
+}
