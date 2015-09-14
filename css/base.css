@@ -1,0 +1,117 @@
+
+html{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background: url('../images/background.jpg') repeat;
+}
+body {
+    color: #000;
+    width: 1000px; /* Ширина макета */
+    height: auto;
+    margin: 0px auto; /* Выравниваем по центру */
+    border-width: 0px 5px 0px 5px;
+    border-right-style: solid;
+    border-left-style: solid;
+    font-family: "PT Sans",Tahoma,Arial;
+}
+
+section,form,article{
+    border-style: dashed;
+    color: #fff;
+    border-color: rgba(0,0,220,1);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+    margin: 15px;
+    padding-left: 0px;
+}
+
+table{
+    margin: 0px;
+    margin: 0px auto;
+    padding: 15px;
+    width: 690px;
+    color: #000;
+    background-color: rgba(255,255,255,0.7);
+    border: 0px;
+}
+p{
+    margin: 0px;
+    margin: 0px auto;
+    padding: 15px;
+    width: 665px;
+    color: #000;
+    background-color: rgba(255,255,255,0.7);
+    border: 0px;
+}
+table tr{
+    width: 100%;
+    height: auto;
+}
+table tr td{
+}
+
+input:invalid {
+    background: #fdd; /* Красный цвет фона */
+   }
+input:valid {
+    background: #dfd; /* Зеленый цвет фона */
+}
+
+header{
+    font-size: 1.6em;
+    text-transform:uppercase;
+    color: rgba(0, 0, 0, 1);
+    width: 488px;
+    margin: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,220,0.8);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+h1,h2,h3,h4{
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgba(220,0,0,0.5);
+}
+#login_form {
+    width: 300px;
+    height: 100px; /* Размеры должны быть фиксированы */
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed; /* чтобы окно было в видимой зоне в любом месте */
+    top: 45%; /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+    left: 50%; /* половина экрана слева */
+    margin-top: -150px;
+    margin-left: -150px; /* тут вся магия центровки css, отступаем влево и вверх минус половину ширины и высоты соответственно =) */
+    display: none; /* в обычном состоянии окна не должно быть */
+    opacity: 0; /* полностью прозрачно для анимирования */
+    z-index: 5; /* окно должно быть наиболее большем слое */
+    padding: 20px 10px;
+    text-align: center;
+}
+#overlay {
+    z-index: 3; /* подложка должна быть выше слоев элементов сайта, но ниже слоя модального окна */
+    position: fixed; /* всегда перекрывает весь сайт */
+    background-color: #000; /* черная */
+    opacity: 0.8; /* но немного прозрачна */
+    width: 100%;
+    height: 100%; /* размером во весь экран */
+    top: 0;
+    left: 0; /* сверху и слева 0, обязательные свойства! */
+    cursor: pointer;
+    display: none; /* в обычном состоянии её нет) */
+}

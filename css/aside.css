@@ -1,0 +1,70 @@
+aside{
+    position: static;
+    float: left;
+    width: 220px;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+    margin-right: -5px;
+    border-width: 0px 5px 0px 0px;
+    border-style: solid;
+    background-color: rgba(255,255,255,0.7);
+}
+aside section{
+    width: auto;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.7);
+}
+aside header{
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+}
+aside h1{
+    color: #fff;
+    width: auto;
+    font-size: 1.3em;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0,0,220,0.7);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+aside h2{
+    background-color: rgba(220,0,0,0.7);
+    color: #fff;
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+
+aside img{
+    margin: auto;
+    width: 100%;
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+
+datetime{
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    color: #000;
+    font-size:0.7em;
+    background-color: rgba(225,225,0,0.8);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}

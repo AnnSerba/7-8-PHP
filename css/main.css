@@ -1,0 +1,70 @@
+main{
+    width: 730px;
+    margin: 10px;
+    padding: 0px;
+    float: right;
+    background-color: rgba(255,255,255,0.5);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+main form{
+    border-style: dashed;
+    border-color: rgba(220,0,0,1);
+}
+
+main a{
+    text-decoration: none;
+}
+
+main time{
+}
+
+
+main img{
+    width: 175px;
+    height: auto;
+    margin: auto;
+}
+.linkImg {
+    display:inline-block;   
+    position:relative;
+}
+
+.linkImg .title {
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:5px;
+    width:175px;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+     
+    color:#fff;
+         
+    padding:10px;
+    background-color:rgba(0,0,0,.3);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+
+main button a{
+    text-decoration: none;
+    color: #000;
+}
+#gallary{
+    margin-top: 100px;
+}
+
+
+   #popover_test{
+    width: 500px;
+    height: 100%;
+    background: #00ccff;
+    border: 1px solid blue;
+    margin-left:200px;
+    margin-top:100px;
+  }

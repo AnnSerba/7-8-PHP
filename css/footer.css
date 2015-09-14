@@ -1,0 +1,8 @@
+footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0px;
+    color: rgba(0, 0, 0, 1);
+}
